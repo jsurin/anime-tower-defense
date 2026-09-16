@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Sakura Sentinel",
+      "hasCanvas": false,
+      "bodyTextLen": 341,
+      "bodyTextHash": "f5d219bc2d64f0f16ca5fc263488c37e62ed954ed5aba31d023e3d21b063af2b",
+      "bodyTextPrefix": "SHRINE DEFENSE Sakura Sentinel 桜の守護者 Place spirit towers along t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/preview-debug.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Sakura Sentinel",
+      "hasCanvas": false,
+      "bodyTextLen": 341,
+      "bodyTextHash": "f5d219bc2d64f0f16ca5fc263488c37e62ed954ed5aba31d023e3d21b063af2b",
+      "bodyTextPrefix": "SHRINE DEFENSE Sakura Sentinel 桜の守護者 Place spirit towers along t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/preview-debug-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/preview-debug.json"
+}

@@ -1,0 +1,64 @@
+{
+  "target": "asset",
+  "mode": "single",
+  "prompt": "",
+  "role": "",
+  "input": "/workspace/assets/sprites/lantern/raw-sheet.jpg",
+  "threshold": 72,
+  "edge_threshold": 140,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 320,
+  "fit_scale": 0.9,
+  "trim_border": 4,
+  "edge_clean_depth": 2,
+  "align": "feet",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 6,
+  "min_component_area": 200,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "single-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1408,
+        1408
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 311780,
+      "selected_component_bbox": [
+        417,
+        139,
+        983,
+        1231
+      ],
+      "crop_bbox": [
+        411,
+        133,
+        989,
+        1237
+      ],
+      "edge_touch": false,
+      "output_size": [
+        150,
+        288
+      ],
+      "paste_position": [
+        85,
+        17
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}

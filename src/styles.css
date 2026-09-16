@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0c0b10;
+  --color-ink-elevated: #16141c;
+  --color-ink-soft: #221e28;
+  --color-paper: #f3ece4;
+  --color-paper-muted: #c4bbb2;
+  --color-paper-subtle: #8d857e;
+  --color-sakura: #e85a8a;
+  --color-sakura-deep: #c43d70;
+  --color-moss: #4a8b74;
+  --color-danger: #d45b5b;
+  --color-crest: #e8c9a0;
+  --color-border: color-mix(in oklab, #f3ece4 14%, transparent);
+  --color-border-strong: color-mix(in oklab, #f3ece4 24%, transparent);
+
+  --font-display: "Shippori Mincho", "Times New Roman", serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius: 12px;
+}
+
+@layer base {
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    height: 100%;
+  }
+
+  html {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-ink);
+    color: var(--color-paper);
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: manipulation;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

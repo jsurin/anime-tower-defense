@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Sakura Sentinel",
+      "hasCanvas": false,
+      "bodyTextLen": 420,
+      "bodyTextHash": "7ba8cec65afb06c53bac14f3c9e6507d2c47e2a20bb81b795fba220f0552bbc6",
+      "bodyTextPrefix": "SHRINE DEFENSE Sakura Sentinel 桜の守護者 Place spirit towers along t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ledger-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Sakura Sentinel",
+      "hasCanvas": false,
+      "bodyTextLen": 420,
+      "bodyTextHash": "7ba8cec65afb06c53bac14f3c9e6507d2c47e2a20bb81b795fba220f0552bbc6",
+      "bodyTextPrefix": "SHRINE DEFENSE Sakura Sentinel 桜の守護者 Place spirit towers along t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ledger-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/ledger-smoke.json"
+}

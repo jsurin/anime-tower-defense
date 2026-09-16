@@ -1,0 +1,16 @@
+{
+  "mapSize": { "width": 1280, "height": 720 },
+  "spawn": { "x": 0, "y": 292 },
+  "exit": { "x": 1280, "y": 336 },
+  "props": [
+    { "id": "shrine", "image": "/props/shrine.png", "x": 148, "y": 168, "scale": 0.72, "layer": "props" },
+    { "id": "tree-a", "image": "/props/tree.png", "x": 250, "y": 132, "scale": 0.95, "layer": "props" },
+    { "id": "tree-b", "image": "/props/tree.png", "x": 742, "y": 118, "scale": 1.05, "layer": "props" },
+    { "id": "tree-c", "image": "/props/tree.png", "x": 1088, "y": 168, "scale": 0.88, "layer": "props" },
+    { "id": "lantern-a", "image": "/props/lantern.png", "x": 360, "y": 248, "scale": 0.55, "layer": "props" },
+    { "id": "lantern-b", "image": "/props/lantern.png", "x": 640, "y": 210, "scale": 0.52, "layer": "props" },
+    { "id": "lantern-c", "image": "/props/lantern.png", "x": 980, "y": 268, "scale": 0.55, "layer": "props" },
+    { "id": "lantern-d", "image": "/props/lantern.png", "x": 210, "y": 430, "scale": 0.5, "layer": "props" },
+    { "id": "torii", "image": "/props/torii.png", "x": 1210, "y": 372, "scale": 0.82, "layer": "props" }
+  ]
+}

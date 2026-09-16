@@ -1,0 +1,64 @@
+{
+  "target": "asset",
+  "mode": "single",
+  "prompt": "",
+  "role": "",
+  "input": "/workspace/assets/sprites/tree/raw-sheet.jpg",
+  "threshold": 72,
+  "edge_threshold": 140,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 512,
+  "fit_scale": 0.9,
+  "trim_border": 4,
+  "edge_clean_depth": 2,
+  "align": "feet",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 6,
+  "min_component_area": 200,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "single-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1408,
+        1408
+      ],
+      "component_mode": "largest",
+      "component_count": 2,
+      "selected_component_area": 387299,
+      "selected_component_bbox": [
+        286,
+        210,
+        1108,
+        1203
+      ],
+      "crop_bbox": [
+        280,
+        204,
+        1114,
+        1209
+      ],
+      "edge_touch": false,
+      "output_size": [
+        382,
+        460
+      ],
+      "paste_position": [
+        65,
+        27
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}
